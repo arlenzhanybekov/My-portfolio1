@@ -201,20 +201,47 @@ body {
 }
 
 .portfolio {
-  text-align: center;
-  color: var(--pure-white);
   background-color: var(--accent);
-  
  }
- .blog_post {
-  padding:  0;
+ 
+.portfolio-title {
+  margin-bottom: 1em;
+  color: var(--accent);
+}
+.portfolio ul {
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  display: grid;
   gap: 20px;
-  justify-content: center;
-  border-radius: 7px;
- }
+  grid-template-columns: repeat(2, 1fr);
+}
+.portfolio img {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+.portfolio li {
+  border-radius: 10px;
+  background-color: var(--pure-white);
+  text-align: center; 
+  padding-bottom: 12px; 
+  overflow: hidden;
+  gap: 20px;
+}
+.portfolio ul a {
+  display: inline-block;
+  padding: 10px 30px;
+  color: var(--pure-white);
+  text-decoration: none;
+  background-color: var(--accent);
+  border-radius: 4px;
+  transform: all 0.3s;
+}
+.portfolio ul a:hover {
+  background-color: var(--accent-light);
+}
+
  .languages ul {
   display: flex;
   justify-content: center;
