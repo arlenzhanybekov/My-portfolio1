@@ -195,6 +195,7 @@ body {
   background-color: var(--accent);
   flex-wrap: wrap;
  }
+ 
 .portfolio-title {
   margin-bottom: 1em;
   color: var(--accent);
@@ -232,7 +233,7 @@ body {
 .portfolio ul a:hover {
   background-color: var(--accent-light);
 }
-
+ 
  .languages ul {
   display: flex;
   justify-content: center;
@@ -248,5 +249,5 @@ body {
    padding: 0;
    margin: 0;
    justify-content: center;
-   gap: 15px;
+   gap: 16px;
  }
