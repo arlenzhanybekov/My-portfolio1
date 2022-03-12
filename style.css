@@ -193,7 +193,10 @@ body {
 
 .portfolio {
   background-color: var(--accent);
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> 9df5def02abc010905f66192a515b64f807d0521
  }
  
 .portfolio-title {
@@ -233,7 +236,11 @@ body {
 .portfolio ul a:hover {
   background-color: var(--accent-light);
 }
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 9df5def02abc010905f66192a515b64f807d0521
  .languages ul {
   display: flex;
   justify-content: center;
